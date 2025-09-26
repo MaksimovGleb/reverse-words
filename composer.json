@@ -2,7 +2,9 @@
     "name": "gleb/reverse-words",
     "description": "Проект для реверса слов с сохранением регистра и пунктуации",
     "type": "project",
-    "require": {},
+    "require": {
+        "ext-mbstring": "*"
+    },
     "autoload": {
         "psr-4": {
             "App\\": "src/"
